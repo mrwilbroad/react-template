@@ -2,7 +2,7 @@ import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import UserProfile from "views/UserProfile.js";
 
-var routes = [
+const routes = [
   {
     path: "/dashboard",
     name: "Dashboard",

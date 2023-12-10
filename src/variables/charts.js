@@ -1,4 +1,3 @@
-
 let chart1_2_options = {
   maintainAspectRatio: false,
   legend: {
@@ -45,9 +44,6 @@ let chart1_2_options = {
   },
 };
 
-// #########################################
-// // // used inside src/views/Dashboard.js
-// #########################################
 export const chartExample1 = {
   data1: (canvas) => {
     let ctx = canvas.getContext("2d");
