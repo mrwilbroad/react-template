@@ -115,7 +115,7 @@ function Admin(props) {
             </div>
           </div>
 
-          {/* Handle Setting for Background # */}
+          {/* Handle Setting for Background color of the SideBar Component # */}
           <FixedPlugin bgColor={color} handleBgClick={changeColor} />
         </React.Fragment>
       )}
