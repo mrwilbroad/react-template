@@ -22,6 +22,7 @@ function Footer() {
           © {new Date().getFullYear()} made with{" "}
           <i className="tim-icons icon-heart-2" /> by{" "}
           <a
+          rel="noreferrer"
             href="https://github.com/mrwilbroad/react-template"
             target="_blank"
           >
