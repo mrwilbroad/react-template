@@ -2,7 +2,6 @@
 import Dashboard from "views/Dashboard.js";
 import Notifications from "views/Notifications.js";
 import TableList from "views/TableList.js";
-import Typography from "views/Typography.js";
 import UserProfile from "views/UserProfile.js";
 
 var routes = [
@@ -32,13 +31,6 @@ var routes = [
     name: "Table List",
     icon: "tim-icons icon-puzzle-10",
     component: <TableList />,
-    layout: "/admin",
-  },
-  {
-    path: "/typography",
-    name: "Typography",
-    icon: "tim-icons icon-align-center",
-    component: <Typography />,
     layout: "/admin",
   },
 ];
