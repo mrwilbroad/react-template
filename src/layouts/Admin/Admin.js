@@ -88,7 +88,7 @@ function Admin(props) {
             <Sidebar
               routes={routes}
               logo={{
-                text: "Creative Tim",
+                text: "mrwilbroad",
                 imgSrc: logo,
               }}
               toggleSidebar={toggleSidebar}
