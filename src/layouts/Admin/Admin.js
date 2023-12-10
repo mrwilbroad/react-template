@@ -112,6 +112,8 @@ function Admin(props) {
               }
             </div>
           </div>
+
+          {/* Handle Setting for Background # */}
           <FixedPlugin bgColor={color} handleBgClick={changeColor} />
         </React.Fragment>
       )}
