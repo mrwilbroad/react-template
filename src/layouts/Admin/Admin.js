@@ -100,6 +100,8 @@ function Admin(props) {
                 sidebarOpened={sidebarOpened}
               />
               <Routes>
+
+                {/* All routes outles are rendered here!! */}
                 {getRoutes(routes)}
                 <Route
                   path="/"
