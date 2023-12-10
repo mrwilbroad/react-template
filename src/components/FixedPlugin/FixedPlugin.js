@@ -1,13 +1,13 @@
-
 import React from "react";
 
 // reactstrap components
-import { Button, Dropdown, DropdownToggle, Badge } from "reactstrap";
+import { Dropdown, DropdownToggle, Badge } from "reactstrap";
 import { ThemeContext, themes } from "contexts/ThemeContext";
 import { backgroundColors } from "contexts/BackgroundColorContext";
 
 function FixedPlugin(props) {
   const [dropDownIsOpen, setdropDownIsOpen] = React.useState(false);
+
   const handleClick = () => {
     setdropDownIsOpen(!dropDownIsOpen);
   };
@@ -54,7 +54,8 @@ function FixedPlugin(props) {
             <ThemeContext.Consumer>
               {({ changeTheme }) => (
                 <>
-                  <span className="color-label">LIGHT MODE</span>{" "}
+
+                  <span className="color-label">LIGHT</span>{" "}
                   <Badge
                     className="light-badge mr-2"
                     onClick={() => changeTheme(themes.light)}
@@ -63,12 +64,11 @@ function FixedPlugin(props) {
                     className="dark-badge ml-2"
                     onClick={() => changeTheme(themes.dark)}
                   />{" "}
-                  <span className="color-label">DARK MODE</span>{" "}
+                  <span className="color-label">DARK</span>{" "}
                 </>
               )}
             </ThemeContext.Consumer>
           </li>
-      
         </ul>
       </Dropdown>
     </div>
